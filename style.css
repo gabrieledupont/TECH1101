@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d0bfe5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #191b23;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.2s ease;
+  }
+  
+  nav ul li a.active,
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 25px;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./images/degrade.avif");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 200px 0;
+  }
+  #me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hero h1 {
+    font-size: 64px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px #333;
+  }
+  
+  #hero p {
+    font-size: 28px;
+    margin-bottom: 60px;
+  }
+  
+  #hero .cta {
+    background-color: #fff;
+    color: #17287e;
+    font-size: 24px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    transition: background-color 0.2s ease;
+  }
+  
+  #hero .cta:hover {
+    background-color: #043880;
+    color: #fff;
+  }
+  
+  /* About section styles */
+  #about {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  #about h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  
