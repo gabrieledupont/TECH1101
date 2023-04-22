@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My Website Prototype</title>
+    <!DOCTYPE html>
+    <html>
     <link rel="stylesheet" href="style.css">
-    
-  </head>
+   
   <body>
     <header>
       <nav>
@@ -22,104 +19,82 @@
      
       </section>
       
-      <section id="services">
-        <h2>My qualitys</h2>
-        <ul>
-          <li>Faster Learner</li>
-          <li>Web Development</li>
-          <li>Search Engine Optimization</li>
-        </ul>
-        <a href="#" class="cta">View Portfolio</a>
-      </section>
-      <section id="portfolio">
-        <h2>Our Portfolio</h2>
-        <div class="portfolio-item">
-          <img src="https://media.licdn.com/dms/image/D5603AQG9Qsiu4s7mnA/profile-displayphoto-shrink_400_400/0/1679926714524?e=1687392000&v=beta&t=dn6MDj8-jb6DeIVRYCb1U7XE-ehybbjOVOBTpO4l630" alt="Portfolio Item 1">
-          <h3>Resume</h3>
-          <p>Here is my resume
-          <p>EDUCATION</p>
-  
-  2023 <br> 
-  <br>
-  Bow Valley<br> 
-  
-  Software Development <br> Associates Diploma<br>
-  
-  <br> 2022
-  <br>
-  <br> Feevale University<br>
-  
-  Bachelor's in Business Administration
-  <br>
-  
-  <br>SKILLS
-  <br>
-  <ul>
-  
-  <li>Quick to adapt</li>
-  
-  <li>Fast learner </li>
-  
-  <li>Project Management</li>
-  
-  <li>Reporting and analyzing</li>
-  
-  <li>Basic knowledge of C++, HTML, JavaScript, CSS</li>
-  </ul>
-  I'm a Brazilian immigrant looking to launch my career in Canada. I like being challenged, and I'm looking for a role that will help me grow while I deliver great results. I have a deep interest in business, software development, project management, and finance.
-  <br>
-  <br>
-  WORK EXPERIENCE<br>
-  
-  <br>APR 2022 DEC 2022
-  <br>
-  Sinoscar Group, Brazil
-  <ul>
-  <li> Created logistics reports measuring the performance of warehouse fulfillment; 
-  <li>Responsible for launching freight;</li>
-  
-  <li>Built relationships with third-party service providers, such as couriers;</li> 
-  <li>Managed all sales through Mercado Livre, Brazil's biggest e-commerce platform.</li>
-  </ul>
-  
-  ACCOMPLISHMENTS
-  <br>
-  <ul>
-  <li>Third place and science fair highlight at Mostratec 2018 with my project "Binaural Method to Improve Your Studies".</li>
-  
-  <li>First place at PioTec Science Fair 2016 with my project "Binaural Audio: Its Influences on the Brain".</li>
-          </p>
-          <p> View more at:
-          <a href="https://www.linkedin.com/in/gabrieledupont/" class="cta"target="_blank">My LinkedIn</a>
-        </div>
-        <div class="portfolio-item">
-        
-          <h3>Portfolio Item 2</h3>
-          <p>Description of portfolio item 2.</p>
-          <a href="#" class="cta">View Details</a>
-        </div>
-        <div class="portfolio-item">
       
-          <h3>Hobbys</h3>
-          <p>Description of portfolio item 3.</p>
-          <a href="#" class="cta">View Details</a>
-        </div>
-      </section>
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
-          <button type="submit" class="cta">Send Message</button>
-        </form>
-      </section>
-      <footer>
-        <p>&copy; 2023 My Website Prototype</p>
-      </footer>
+          <title>JavaScript Cheat Sheet</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <style>
+              table {
+                  border-collapse: collapse;
+                  width: 100%;
+              }
+              th, td {
+                  padding: 8px;
+                  text-align: left;
+                  border-bottom: 1px solid #ddd;
+              }
+              th {
+                  background-color: #f2f2f2;
+              }
+          </style>
+      </head>
+    
+          <h1>JavaScript Cheat Sheet</h1>
+          <table>
+              <tr>
+                  <th>Concept</th>
+                  <th>Description</th>
+                  <th>Example</th>
+              </tr>
+              <tr>
+                  <td>Variables</td>
+                  <td>Used to store data or values in memory for later use.</td>
+                  <td>var x = 10;</td>
+              </tr>
+              <tr>
+                  <td>Data Types</td>
+                  <td>JavaScript has several data types, including strings, numbers, booleans, and objects.</td>
+                  <td>var str = "Hello"; var num = 10; var bool = true; var obj = {};</td>
+              </tr>
+              <tr>
+                  <td>Functions</td>
+                  <td>Reusable blocks of code that perform a specific task.</td>
+                  <td>function addNumbers(a, b) { return a + b; }</td>
+              </tr>
+              <tr>
+                  <td>Conditional Statements</td>
+                  <td>Used to perform different actions based on different conditions.</td>
+                  <td>if (x > 10) { console.log("x is greater than 10"); }</td>
+              </tr>
+              <tr>
+                  <td>Loops</td>
+                  <td>Used to repeat a block of code multiple times.</td>
+                  <td>for (var i = 0; i < 10; i++) { console.log(i); }</td>
+              </tr>
+              <tr>
+                  <td>Arrays</td>
+                  <td>Used to store multiple values in a single variable.</td>
+                  <td>var arr = [1, 2, 3, 4, 5];</td>
+              </tr>
+              <tr>
+                  <td>Objects</td>
+                  <td>Used to store multiple values and functions as properties of a single variable.</td>
+                  <td>var person = { name: "John", age: 30, sayHello: function() { console.log("Hello!"); } };</td>
+              </tr>
+              <tr>
+                  <td>DOM Manipulation</td>
+                  <td>Used to modify HTML and CSS on a web page dynamically.</td>
+                  <td>document.getElementById("myElement").innerHTML = "New text";</td>
+              </tr>
+              <tr>
+                  <td>Events</td>
+                  <td>Actions that occur in response to user interaction or other triggers.</td>
+                  <td>document.getElementById("myButton").addEventListener("click", function() { console.log("Button clicked"); });</td>
+              </tr>
+          </table>
+    
+      
+      
       <script src="script.js"></script>
     </body>
   </html>
